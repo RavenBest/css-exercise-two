@@ -1,6 +1,6 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 nav {
@@ -20,6 +20,7 @@ nav {
 }
 
 .medium-pic {
+  img: url(../images/instagram-pic.jpg);
   width: 70%;
 }
 
@@ -37,6 +38,14 @@ ul {
   float: right;
 }
 
+a-link {
+  text-decoration:none;
+}
+
+a-hover {
+  color:orange;
+}
+
 li {
   float: right;
   padding: 30px;
@@ -44,7 +53,24 @@ li {
 
 article {
   padding-top: 100px;
+  line-height: 200%;
 }
+
+fig-caption{
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}  
+
+p {
+  font-size: 16px;
+}  
 
 .container {
   margin: 0 auto;
